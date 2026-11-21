@@ -1,0 +1,86 @@
+{
+  "config": {
+    "flow_title": "{name}",
+    "step": {
+      "user": {
+        "description": "Choose the AirGo 140 to add. It must be powered on and in range.",
+        "data": { "address": "Device" }
+      },
+      "confirm": {
+        "description": "Add {name}?"
+      }
+    },
+    "abort": {
+      "already_configured": "This gun is already configured.",
+      "no_devices_found": "No AirGo 140 found. Power it on and bring it in range of a Bluetooth adapter or proxy."
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "heating": { "name": "Heating" },
+      "low_power": { "name": "Power supply too weak" },
+      "heater_fault": { "name": "Heater fault" }
+    },
+    "button": {
+      "stop": { "name": "Stop heating" }
+    },
+    "number": {
+      "live_target_temperature": { "name": "Target temperature" },
+      "live_fan_level": { "name": "Fan level" },
+      "gear1_temperature": { "name": "Gear 1 temperature" },
+      "gear1_fan": { "name": "Gear 1 fan" },
+      "gear2_temperature": { "name": "Gear 2 temperature" },
+      "gear2_fan": { "name": "Gear 2 fan" },
+      "gear3_temperature": { "name": "Gear 3 temperature" },
+      "gear3_fan": { "name": "Gear 3 fan" },
+      "gear4_temperature": { "name": "Gear 4 temperature" },
+      "gear4_fan": { "name": "Gear 4 fan" },
+      "gear5_temperature": { "name": "Gear 5 temperature" },
+      "gear5_fan": { "name": "Gear 5 fan" },
+      "idle_time": { "name": "Auto standby timeout" },
+      "idle_detect": { "name": "Inactivity standby timeout" },
+      "pd_limit": { "name": "USB-PD power limit" },
+      "dc_limit": { "name": "DC power limit" },
+      "backlight": { "name": "Brightness" },
+      "volume": { "name": "Volume" }
+    },
+    "select": {
+      "heat": {
+        "name": "Heat",
+        "state": {
+          "off": "Off",
+          "gear1": "Gear 1",
+          "gear2": "Gear 2",
+          "gear3": "Gear 3",
+          "gear4": "Gear 4",
+          "gear5": "Gear 5"
+        }
+      },
+      "temp_unit": {
+        "name": "Temperature unit",
+        "state": { "celsius": "Celsius", "fahrenheit": "Fahrenheit" }
+      },
+      "cool_mode": {
+        "name": "Cool mode",
+        "state": { "default": "Default", "fast": "Fast" }
+      },
+      "language": {
+        "name": "Language",
+        "state": { "en": "English", "cn": "Chinese", "de": "German", "ru": "Russian" }
+      }
+    },
+    "sensor": {
+      "temperature": { "name": "Temperature" },
+      "target_temperature": { "name": "Target temperature" },
+      "output": { "name": "Heater output" },
+      "active_gear": { "name": "Active gear" },
+      "input_voltage": { "name": "Input voltage" },
+      "pd_power": { "name": "USB-PD power" },
+      "heater_resistance": { "name": "Heater resistance" },
+      "firmware": { "name": "Firmware" }
+    },
+    "switch": {
+      "screen_off": { "name": "Display off after standby" }
+    }
+  }
+}

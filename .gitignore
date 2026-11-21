@@ -1,0 +1,8 @@
+.scratchpad/
+.DS_Store
+.playwright-mcp/
+.vscode/
+__pycache__/
+.venv/
+.pytest_cache/
+deploy.sh
