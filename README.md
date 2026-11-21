@@ -1,5 +1,10 @@
 # AirGo
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/s00500/airgo-homeassistant/main/docs/airgo140.png" alt="Miniware AirGo 140 hot air gun" width="600"><br>
+  <sub>Product render © Miniware, from the AirGo 140 user manual.</sub>
+</p>
+
 Control a Miniware AirGo 140 hot air gun over Bluetooth LE: a Go library, a CLI, and a
 Home Assistant integration. [PROTOCOL.md](PROTOCOL.md) documents the protocol and how far
 each part has been verified.
