@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lbsfilm/airgo"
+	"github.com/s00500/airgo-homeassistant"
 )
 
 const usage = `Usage: airgo [-addr ADDRESS] [-name NAME] [-timeout 15s] COMMAND

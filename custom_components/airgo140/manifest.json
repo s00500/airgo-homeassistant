@@ -11,16 +11,16 @@
     "diy_makers"
   ],
   "codeowners": [
-    "@lbsfilm"
+    "@s00500"
   ],
   "config_flow": true,
   "dependencies": [
     "bluetooth_adapters"
   ],
-  "documentation": "https://github.com/lbsfilm/airgo",
+  "documentation": "https://github.com/s00500/airgo-homeassistant",
   "integration_type": "device",
   "iot_class": "local_push",
-  "issue_tracker": "https://github.com/lbsfilm/airgo/issues",
+  "issue_tracker": "https://github.com/s00500/airgo-homeassistant/issues",
   "requirements": [],
   "version": "0.1.0"
 }

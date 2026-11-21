@@ -1,4 +1,4 @@
-module github.com/lbsfilm/airgo
+module github.com/s00500/airgo-homeassistant
 
 go 1.27.2
 

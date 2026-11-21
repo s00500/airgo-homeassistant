@@ -11,7 +11,7 @@ each part has been verified.
 
 ## CLI
 
-    go install github.com/lbsfilm/airgo/cmd/airgo@latest
+    go install github.com/s00500/airgo-homeassistant/cmd/airgo@latest
 
     airgo scan
     airgo status
@@ -52,7 +52,7 @@ The wire format in `protocol.go` has no Bluetooth dependency.
 
 ## Home Assistant
 
-[![Open in the Home Assistant Marketplace](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/marketplace_repository/?owner=lbsfilm&repository=airgo&category=integration)
+[![Open in the Home Assistant Marketplace](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/marketplace_repository/?owner=s00500&repository=airgo-homeassistant&category=integration)
 
 Install it from the Marketplace (Settings > Marketplace, Home Assistant 2026.11 or newer)
 with the button above. Alternatively, copy `custom_components/airgo140` into your
